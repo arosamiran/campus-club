@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cyber Train</title>
+  <script src="aframe-master.js"></script>
+</head>
+<body>
+
+  <a-scene>
+    <a-asset>
+      <img src="img/doodlr.jpg" alt="Doodlr logo" id="logo">
+    </a-asset>
+    
+  <a-entity>
+    <a-entity
+      geometry="primitive: sphere; radius: 1"
+      material="color: #0f0"
+      position="0 0 0"
+      id="sphere">
+      <a-animation
+        direction="alternate"
+        attribute="position"
+        begin="click"
+        fill="forwards"
+        repeat="indefinite"
+        to="10 0 0"></a-animation>
+    </a-entity>
+  </a-entity>
+
+  <a-camera position="0 10 0" rotation="-45 0 0">
+    <a-cursor></a-cursor>
+  </a-camera>
+  </a-scene>
+<script src="interactivity.js"></script>
+</body>
+</html>

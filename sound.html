@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Boiletplate</title>
+  <link rel="shortcut icon" href="img/doodlr.ico" type="image/x-icon">
+  <script src="aframe-master.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <audio src="url(sounds/tune.mp3)" id="tune"></audio>
+    </a-assets>
+      <a-entity
+        id="river"
+        geometry="primitive: box; width: 1; height: 1; depth: 1" 
+        material="color: blue"
+        position="-10 0 0" 
+        sound="src: #tune; autoplay: true; loop: true; on:mouseenter"
+        ></a-entity>
+    <a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>      
+  </a-scene>
+</body>
+</html>
