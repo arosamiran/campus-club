@@ -1,1 +1,0 @@
-A resource for learning A-Frame - a framework made by Mozilla for developing VR experience for the web.
