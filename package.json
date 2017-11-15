@@ -1,0 +1,28 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "A resource for learning A-Frame",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+  "run": "http-server"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arosamiran/playground.git"
+  },
+  "keywords": [
+    "WebVR",
+    "aframe",
+    "MozVR"
+  ],
+  "author": "Angelo Rosamiran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arosamiran/playground/issues"
+  },
+  "homepage": "https://github.com/arosamiran/playground#readme"
+}
