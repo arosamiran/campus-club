@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Object Loading</title>
+  <script src="../dist/aframe-070.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <a-asset-item id="monkey" src="models/monkey.dae"></a-asset-item>
+    </a-assets>
+    <a-entity collada-model="#monkey" position="-10.5 -2 -2"></a-entity>
+  </a-scene>
+  <!-- You can export a .dae model via blender or other 3D rendering software. -->
+</body>
+</html>
