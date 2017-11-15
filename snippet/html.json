@@ -1,0 +1,57 @@
+{
+  "a-scene tag":{
+    "prefix": "a-scene",
+    "body": "<a-scene>$1</a-scene>",
+    "description": "a-scene tag"
+  },
+  "a-box tag":{
+    "prefix": "a-box",
+    "body": "<a-box>$1</a-box>",
+    "description": "an a-box tag"
+  },
+  "a-entity tag":{
+    "prefix": "a-entity",
+    "body": "<a-entity>$1</a-entity>",
+    "description": "an a-entity tag"
+  },
+  "a-camera tag":{
+    "prefix": "a-camera",
+    "body": "<a-camera>$1</a-camera>",
+    "description": "an a-camera tag"
+  },
+  "a-cursor tag":{
+    "prefix": "a-cursor",
+    "body": "<a-cursor>$1</a-cursor>",
+    "description": "an a-cursor tag"
+  },
+  "a-sphere tag":{
+    "prefix": "a-sphere",
+    "body": "<a-sphere>$1</a-sphere>",
+    "description": "an a-sphere tag"
+  },
+  "a-cone tag":{
+    "prefix": "a-cone",
+    "body": "<a-cone>$1</a-cone>",
+    "description": "an a-cone tag"
+  },
+  "a-cylinder tag":{
+    "prefix": "a-cylinder",
+    "body": "<a-cylinder>$1</a-cylinder>",
+    "description": "an a-cylinder tag"
+  },
+  "a-plane tag":{
+    "prefix": "a-plane",
+    "body": "<a-plane>$1</a-plane>",
+    "description": "an a-plane tag"
+  },
+  "a-light tag":{
+    "prefix": "a-light",
+    "body": "<a-light>$1</a-light>",
+    "description": "an a-light tag"
+  },
+  "a-circle tag":{
+    "prefix": "a-circle",
+    "body": "<a-circle>$1</a-circle>",
+    "description": "an a-circle tag"
+  }
+  }
