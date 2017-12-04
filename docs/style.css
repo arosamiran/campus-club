@@ -1,34 +1,67 @@
-body{
-  margin: 40px;
+aside {}
+
+header {
+  /* border: 1px dotted black; */
+  margin-bottom: 20px;
 }
 
-nav{
+header .logo {
+  margin: 20px auto;
+  width: 250px;
+  height: 250px;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+header .desc {
+  margin-left: 40px;
+  font-size: 3em;
+}
+
+header, nav, nav button, .text{
+  font-family: "Cooper Hewitt", sans-serif;
+  
+}
+
+nav {
   background-color: #0C69B2;
-  padding: 40px;
   font-size: 1.3em;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #B2C2C2;
+  display: block;
 }
 
-aside{
-
-}
-
-header{
-  margin: 20px;
-  border: 1px dotted black;
-}
-
-header div{
-  width: 250px;
-  height: 250px;
-  margin-right: 20px;  
-}
-
-header img{
+ /* Style the buttons that are used to open and close the accordion panel */
+ button.menuIcon {
+   background-color: transparent;
+   padding: 20px;
+  color: #444;
+  cursor: pointer;
   width: 100%;
-  height: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 1.3em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.menuIcon.active, button.menuIcon:hover {
+  background-color: #FFA111;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.menuList {
+  padding: 0 18px;
+  display: none;
+} 
+
+.menuList ul{
+  list-style-type: none;
 }
