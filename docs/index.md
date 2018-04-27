@@ -1,37 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-  <!-- favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
-  <link rel="manifest" href="../icons/manifest.json">
-  <link rel="mask-icon" href="../icons/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#00aba9">
-
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="materialize/css/materialize.css">
-  <script src="materialize/js/materialize.js"></script>
-
-  <title>Playground</title>
-</head>
-
-<body class="container">
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="Playground logo">
-    </div>
-    <div class="desc">
-      <span>Yet another resource for learning A-Frame.</span>
-    </div>
-  </header>
-    <div class="menuIcon">Components</div>
+#Yet another resource for lerning Aframe.
+   <div class="menuIcon">Components</div>
     <div class="menuList">
       <ul>
         <li>
@@ -275,8 +243,4 @@
           <a href="../makes/object-loading.html" target="_blank">object-loading</a>
         </li>
       </ul>
-    </div>
-  <script src="script.js"></script>
-</body>
-
-</html>
+    </div
