@@ -1,4 +1,3 @@
-aside {}
 
 header {
   /* border: 1px dotted black; */
@@ -21,24 +20,10 @@ header .desc {
   font-size: 3em;
 }
 
-header, nav, nav button, .text{
-  font-family: "Cooper Hewitt", sans-serif;
-  
-}
 
-nav {
-  background-color: #0C69B2;
-  font-size: 1.3em;
-}
 
-nav a {
-  text-decoration: none;
-  color: #B2C2C2;
-  display: block;
-}
-
- /* Style the buttons that are used to open and close the accordion panel */
- button.menuIcon {
+ /* Style the s that are used to open and close the accordion panel */
+ .menuIcon {
    background-color: transparent;
    padding: 20px;
   color: #444;
@@ -49,10 +34,11 @@ nav a {
   outline: none;
   transition: 0.4s;
   font-size: 1.3em;
+  cursor: pointer;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.menuIcon.active, button.menuIcon:hover {
+/* Add a background color to the  if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.menuIcon.active, .menuIcon:hover {
   background-color: #FFA111;
 }
 
